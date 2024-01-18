@@ -19,7 +19,7 @@ Luego nos conectamos con ``` vagrant ssh
 ## Automatización de Docker con Python
 Utilicé **Python** y el modulo **os** para automatizar la creación del **Dockerfile**, realizar el **docker build** y **docker run**                              
                                                 
-Corremos el primer script para la creación y buildeo del **Dockerfile** con ``` python3 dockerCreateBuild.py ```                              
+Corremos el primer script para la creación y buildeo del **Dockerfile** con ``` python3 dockerCreateBuild.py ``` , una vez ejecutado vamos a poder visualizar el **Dockerfile** en **/Proyecto/Docker-app**                               
                                                                                                               
 Corremos el segundo script para correr el contenedor con ``` python3 dockerRun.py ```                                                                 
 
